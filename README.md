@@ -9,10 +9,10 @@ Run this program.
 
 
 For example, commit 10 commits max every day for two years,
-and avoid committing on Saturday and Sunday:
+and avoid committing on Saturday and Sunday, with the random commit message:
 
 ```
-go run main.go -max=10 -skip-weekend=true
+go run main.go -max=10 -skip-weekend=true -rand-msg
 ```
 ## Why?
 
