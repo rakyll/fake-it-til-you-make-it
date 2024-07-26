@@ -8,11 +8,11 @@ Run this program.
 ## Usage
 
 
-For example, commit 10 commits max every day for two years,
+For example, commit 10 commits max every day for two months,
 and avoid committing on Saturday and Sunday:
 
 ```
-go run main.go -max=10 -skip-weekend=true
+go run main.go -max=10 -months=2 -skip-weekend=true
 ```
 ## Why?
 
